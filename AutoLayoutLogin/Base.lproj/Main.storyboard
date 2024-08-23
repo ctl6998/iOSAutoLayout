@@ -25,9 +25,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="person.crop.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oUB-Sd-z95">
-                                        <rect key="frame" x="143" y="94.666666666666629" width="144" height="143"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="person.crop.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oUB-Sd-z95">
+                                        <rect key="frame" x="165" y="116.66666666666666" width="100" height="98.666666666666686"/>
                                         <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="6lZ-mK-9e6"/>
+                                            <constraint firstAttribute="width" secondItem="oUB-Sd-z95" secondAttribute="height" multiplier="1:1" id="BLz-hm-HB6"/>
+                                            <constraint firstAttribute="width" constant="100" id="hIV-vH-52Y"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
